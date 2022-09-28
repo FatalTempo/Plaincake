@@ -1,0 +1,54 @@
+!test or /test
+replies with a
+
+!hello
+replies with Hi
+
+!talk or /talk
+replies with "  const randomArray = ['Okay sure', 'Yep', 'Blah', 'Alright', 'wtf'];  "
+
+
+
+
+
+
+yes
+
+
+
+info:
+
+sends a normal reply but not directed at user 
+_________________________
+Discord.Interaction.reply 
+
+sends a reply directed at user
+_________
+msg.reply
+
+sends a normal reply but not directed at user im guessing in the same channel? hence ".channel"
+____________________
+message.channel.send
+
+
+
+
+
+
+
+
+
+client.on('message', (msg) =>{
+    if(msg.content === '!hello') {
+        msg.reply('Hi');
+    }
+});
+
+
+
+bogos binted :alien: 1→4
+Check these artists/songs out!
+https://www.youtube.com/channel/UCSuVd1VOqYS5cNtX4srFvXA
+https://piapro.jp/t/0qdz
+Different Genres are hard to mix
+1/23/22     >     4/26/22
